@@ -47,7 +47,7 @@ int main() {
 
         }
 
-        //outputVideo.write(contoursImg);
+        outputVideo.write(contoursImg);
 
         //cv::imshow("Original Video", frame);
         cv::imshow("Contours", contoursImg);
